@@ -5,6 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PKBM Bina Cahya</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #2c3e50;
+            padding: 10px 0;
+            z-index: 1000;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        body {
+            padding-top: 50px; /* Agar konten tidak tertutup oleh navbar */
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -15,6 +43,7 @@
                 <li><a href="#tentang">Tentang Kami</a></li>
                 <li><a href="#program">Program & Kelas</a></li>
                 <li><a href="#galeri">Galeri</a></li>
+                <li><a href="#artikel">Artikel</a></li>
                 <li><a href="#kontak">Kontak</a></li>
             </ul>
         </nav>
@@ -44,6 +73,18 @@
     <section id="galeri">
         <h2>Galeri</h2>
         <p>Foto dan video kegiatan siswa.</p>
+    </section>
+    
+    <section id="artikel">
+        <h2>Artikel</h2>
+        <article>
+            <h3><a href="artikel1.html">Pentingnya Pendidikan Keterampilan</a></h3>
+            <p>Artikel ini membahas bagaimana keterampilan dapat membantu meningkatkan peluang kerja...</p>
+        </article>
+        <article>
+            <h3><a href="artikel2.html">Belajar Menjahit dari Nol</a></h3>
+            <p>Pelajari langkah-langkah dasar dalam menjahit untuk pemula...</p>
+        </article>
     </section>
     
     <section id="kontak">
